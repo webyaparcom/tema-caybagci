@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Ateşten soğana, soğandan tabağa.",
-        "en": "From fire to onion, from onion to plate.",
-        "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+        "tr": "Demlikten tatlıya, günün ikramları.",
+        "en": "From the pot to the sweets, today's treats.",
+        "ar": "من الإبريق إلى الحلوى، ضيافة اليوم."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -51,7 +51,7 @@
       "description": {
         "tr": "Demlik çay ve tatlı; görseller temsilîdir.",
         "en": "Pot tea and sweets; images are representative.",
-        "ar": "شاي مغلي وحلويات؛ الصور تمثيلية."
+        "ar": "شاي الإبريق وحلويات؛ الصور تمثيلية."
       }
     },
     {

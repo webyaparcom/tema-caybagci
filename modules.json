@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa ayırt",
+          "en": "Reserve a table",
+          "ar": "احجز طاولة"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,10 +1533,10 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "restoran-mekan-3.webp",
+        "img": "otel-kahvalti.webp",
         "video": "",
         "poster": "",
-        "alt": "Çay Molası",
+        "alt": "İnce belli bardaklarda çay",
         "overlay": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 28%, #0b1220)",
         "overlayText": "#ffffff",
         "accent": "var(--mx-site-primary, #2563eb)",
@@ -1535,28 +1546,28 @@
         "eyebrow": {
           "tr": "Demlik başında",
           "en": "Beside the pot",
-          "ar": "جنب المقلى"
+          "ar": "بجانب إبريق الشاي"
         },
         "title": {
-          "tr": "Çayın yanında, söhbetin",
-          "en": "With the tea, the talk",
-          "ar": "مع الشاي، الحديث"
+          "tr": "Çayın yanında, sohbetin",
+          "en": "With the tea, the chat",
+          "ar": "مع الشاي، يحلو الحديث"
         },
         "metin": {
-          "tr": "Çay Molası, çay ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Cay serves pot tea and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم شاي مولا شاي مغلي وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Çay Molası; demlik çay, ev yapımı tatlı ve hafif kahvaltı sunan bir çay evidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Çay Molası is a tea house serving pot tea, homemade sweets and a light breakfast. Images are representative and text is fictional.",
+          "ar": "Çay Molası بيت شاي يقدّم شاي الإبريق وحلويات منزلية وفطورًا خفيفًا. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Çeşitler",
-          "en": "Treats",
-          "ar": "حلويات"
+          "tr": "Çay ve tatlılar",
+          "en": "Tea & sweets",
+          "ar": "الشاي والحلويات"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Tatlı seç",
-          "en": "Pick a sweet",
-          "ar": "اختر حلا"
+          "tr": "Masa ayırt",
+          "en": "Reserve a table",
+          "ar": "احجز طاولة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler var?",
+          "en": "What's on offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "restaurant",
+          "ikon": "emoji_food_beverage",
           "etiket": {
-            "tr": "İsim",
-            "en": "Names",
-            "ar": "أسماء"
+            "tr": "Çay çeşidi",
+            "en": "Tea varieties",
+            "ar": "أنواع الشاي"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 120,
-          "sonek": "%",
-          "ikon": "local_fire_department",
+          "deger": 9,
+          "sonek": "",
+          "ikon": "cake",
           "etiket": {
-            "tr": "Ateşte pişirilen",
-            "en": "Cooked on fire",
-            "ar": "المشوية على النار"
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade sweets",
+            "ar": "حلويات منزلية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,28 +1654,28 @@
           }
         },
         {
-          "deger": 45,
-          "sonek": " dk",
+          "deger": 40,
+          "sonek": "",
+          "ikon": "table_restaurant",
+          "etiket": {
+            "tr": "Oturma yeri",
+            "en": "Seats",
+            "ar": "مقعدًا"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 15,
+          "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Hazırlık süresi",
-            "en": "Preparation time",
-            "ar": "زمن التجهيز"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 6,
-          "sonek": "",
-          "ikon": "groups",
-          "etiket": {
-            "tr": "Çalışan",
-            "en": "Staff",
-            "ar": "طاقم"
+            "tr": "Günlük açık saat",
+            "en": "Open hours a day",
+            "ar": "ساعة عمل يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Mutfak",
-          "en": "The kitchen",
-          "ar": "المطبخ"
+          "tr": "Çay evi",
+          "en": "The tea house",
+          "ar": "بيت الشاي"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler var?",
+          "en": "What's on offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Ateşten soğana, soğandan tabağa.",
-          "en": "From fire to onion, from onion to plate.",
-          "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+          "tr": "Demlikten tatlıya, günün ikramları.",
+          "en": "From the pot to the sweets, today's treats.",
+          "ar": "من الإبريق إلى الحلوى، ضيافة اليوم."
         }
       },
       "data": [
         {
-          "icon": "local_fire_department",
+          "icon": "emoji_food_beverage",
           "name": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Demlik çay",
+            "en": "Pot tea",
+            "ar": "شاي الإبريق"
           },
           "description": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Siparişe göre taze demlenen siyah çay; demlik bitmeden yenisi hazır.",
+            "en": "Black tea brewed fresh to order; a new pot is ready before the last one runs out.",
+            "ar": "شاي أسود يُحضَّر طازجًا عند الطلب، وإبريق جديد جاهز قبل أن ينتهي القديم."
           }
         },
         {
-          "icon": "restaurant",
+          "icon": "coffee",
           "name": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Kahve ve bitki çayları",
+            "en": "Coffee & herbal teas",
+            "ar": "القهوة وشاي الأعشاب"
           },
           "description": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Türk kahvesi, adaçayı, ıhlamur ve mevsim bitki çayları.",
+            "en": "Turkish coffee, sage, linden and seasonal herbal teas.",
+            "ar": "قهوة تركية ومريمية وزهر الزيزفون وشاي أعشاب موسمي."
           }
         },
         {
-          "icon": "icecream",
+          "icon": "cake",
           "name": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade sweets",
+            "ar": "حلويات منزلية"
           },
           "description": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
+            "tr": "Günün tatlısı sabah hazırlanır; tükenince yenisi yapılmaz.",
+            "en": "The sweet of the day is made in the morning; when it is gone, it is gone.",
+            "ar": "تُحضَّر حلوى اليوم صباحًا، وعند نفادها لا تُصنع غيرها."
           }
         },
         {
-          "icon": "lunch_dining",
+          "icon": "bakery_dining",
           "name": {
-            "tr": "Atıştırmalık",
-            "en": "Snack",
-            "ar": "وجبة خفيفة"
+            "tr": "Baklava ve kadayıf",
+            "en": "Baklava & kadayif",
+            "ar": "بقلاوة وقطايف"
           },
           "description": {
-            "tr": "Sıcak içecek yanında atıştırmalık.",
-            "en": "A snack with a hot drink.",
-            "ar": "وجبة خفيفة مع مشروب ساخن."
+            "tr": "Fıstıklı baklava ve kadayıf; çayın yanında küçük porsiyon.",
+            "en": "Pistachio baklava and kadayif, served in small portions beside your tea.",
+            "ar": "بقلاوة بالفستق وقطايف، بحصص صغيرة بجانب الشاي."
           }
         },
         {
-          "icon": "local_bar",
+          "icon": "free_breakfast",
           "name": {
-            "tr": "İçecek",
-            "en": "Drink",
-            "ar": "مشروب"
+            "tr": "Kahvaltı tabağı",
+            "en": "Breakfast plate",
+            "ar": "طبق الفطور"
           },
           "description": {
-            "tr": "Ev yapımı içecek ve çay seçkisi.",
-            "en": "House-made drinks and tea selection.",
-            "ar": "مشروبات منزلية واخيار الشاي."
+            "tr": "Peynir, zeytin, reçel ve sıcak ekmek; hafta sonu serpme kahvaltı.",
+            "en": "Cheese, olives, jam and warm bread; spread-style breakfast on weekends.",
+            "ar": "جبن وزيتون ومربى وخبز ساخن، وفطور مفتوح في عطلة نهاية الأسبوع."
           }
         },
         {
-          "icon": "delivery_dining",
+          "icon": "takeout_dining",
           "name": {
-            "tr": "Paket servis",
-            "en": "To-go service",
-            "ar": "خدمة الطلبات الخارجية"
+            "tr": "Paket çay ve tatlı",
+            "en": "Takeaway tea & sweets",
+            "ar": "شاي وحلويات للأخذ"
           },
           "description": {
-            "tr": "Paket kutusu ve soğuk zincir (demo bilgi).",
-            "en": "To-go box and cold chain (demo info).",
-            "ar": "صندوق للأغراض الخارجية وسلسلة التبريد (معلومات تجريبية)."
+            "tr": "Termos çay ve kutulu tatlı; ofis ve toplantı siparişleri için.",
+            "en": "Flask tea and boxed sweets for office and meeting orders.",
+            "ar": "شاي في ترمس وحلويات في علب لطلبات المكاتب والاجتماعات."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Bir mola nasıl geçer?",
+          "en": "How a break goes",
+          "ar": "كيف تمرّ الاستراحة؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Demlikten bardağa",
+          "en": "From pot to glass",
+          "ar": "من الإبريق إلى الكأس"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Masanıza oturduğunuzdan ikinci bardağa kadar.",
+          "en": "From sitting down to your second glass.",
+          "ar": "من جلوسك إلى طاولتك حتى الكأس الثاني."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Karşılama",
-            "en": "Greeting",
-            "ar": "الترحيب"
+            "tr": "Masa",
+            "en": "Your table",
+            "ar": "الطاولة"
           },
           "text": {
-            "tr": "Masa ve tercih notu alınır.",
-            "en": "The table and preference note are taken.",
-            "ar": "يُؤخذ جدول وملاحظة التفضيل."
+            "tr": "Köşenizi seçin; tercihinizi garsona söyleyin.",
+            "en": "Pick your corner and tell the waiter what you fancy.",
+            "ar": "اختر ركنك وأخبر النادل بما تفضّله."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Hazırlık",
-            "en": "Preparation",
-            "ar": "التجهيز"
+            "tr": "Demleme",
+            "en": "Brewing",
+            "ar": "التحضير"
           },
           "text": {
-            "tr": "Ateş ve malzeme saati başlar.",
-            "en": "Fire and ingredient time begin.",
-            "ar": "تبدأ نار ومال المواد."
+            "tr": "Çay siparişinize göre taze demlenir.",
+            "en": "The tea is brewed fresh for your order.",
+            "ar": "يُحضَّر الشاي طازجًا حسب طلبك."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Sunum",
+            "tr": "İkram",
             "en": "Serving",
-            "ar": "الكشف والطبخ"
+            "ar": "التقديم"
           },
           "text": {
-            "tr": "Yemek sıcak servis edilir.",
-            "en": "The dish is served hot.",
-            "ar": "يُقدَّم الطبق ساخناً."
+            "tr": "Çay ince belli bardakta, tatlı yanında gelir.",
+            "en": "Tea comes in a tulip glass, with the sweet beside it.",
+            "ar": "يُقدَّم الشاي في كأس رفيع والحلوى بجانبه."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tatlı",
-            "en": "Dessert",
-            "ar": "الحلا"
+            "tr": "Sohbet",
+            "en": "Stay a while",
+            "ar": "جلسة هادئة"
           },
           "text": {
-            "tr": "Ağız tadına uygun tatlı ve içecek.",
-            "en": "A dessert and drink to your palate.",
-            "ar": "حلوة ومشروب يتناسب مع مذاقك."
+            "tr": "Acele yok; bardak boşalınca yenisi gelir.",
+            "en": "No rush; a fresh glass arrives when yours is empty.",
+            "ar": "لا استعجال؛ يصل كأس جديد عندما يفرغ كأسك."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Çay evi ekibi",
+          "en": "Tea house team",
+          "ar": "فريق بيت الشاي"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Demlik başındakiler",
+          "en": "The people behind the pot",
+          "ar": "من يقف خلف الإبريق"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Ayşe Demir",
           "role": {
-            "tr": "Şef",
-            "en": "Chef",
-            "ar": "شيف"
+            "tr": "Çaycıbaşı",
+            "en": "Head tea maker",
+            "ar": "رئيسة صنّاع الشاي"
           },
           "bio": {
-            "tr": "12 yıl sıcak mutfak.",
-            "en": "12 years of hot kitchen.",
-            "ar": "١٢ عامًا في المَطبخ الساخن."
+            "tr": "12 yıl demlik çay ve bitki çayı.",
+            "en": "12 years of pot tea and herbal tea.",
+            "ar": "12 عامًا في شاي الإبريق وشاي الأعشاب."
           },
           "img": ""
         },
         {
           "name": "Burak Öztürk",
           "role": {
-            "tr": "Ateş başı",
-            "en": "Grill master",
-            "ar": "على النار"
+            "tr": "Tatlı ustası",
+            "en": "Pastry cook",
+            "ar": "صانع الحلويات"
           },
           "bio": {
-            "tr": "6 yıl ızgara.",
-            "en": "6 years of grilling.",
-            "ar": "٦ سنوات على المشواة."
+            "tr": "8 yıl baklava ve kadayıf.",
+            "en": "8 years of baklava and kadayif.",
+            "ar": "8 سنوات في البقلاوة والقطايف."
           },
           "img": ""
         },
         {
           "name": "Seda Kaya",
           "role": {
-            "tr": "Servis başı",
-            "en": "Head of service",
-            "ar": "رئیسة الخدمة"
+            "tr": "Servis sorumlusu",
+            "en": "Service lead",
+            "ar": "مسؤولة الخدمة"
           },
           "bio": {
-            "tr": "5 yıl karşılama.",
-            "en": "5 years of reception.",
-            "ar": "٥ سنوات في الاستقبال."
+            "tr": "5 yıl karşılama ve masa düzeni.",
+            "en": "5 years of hosting and table service.",
+            "ar": "5 سنوات في الاستقبال وخدمة الطاولات."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Misafirlerimiz ne diyor?",
+          "en": "What our guests say",
+          "ar": "ماذا يقول ضيوفنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2026,9 +2037,9 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sıcak geldi; porsiyon dengeli.",
-            "en": "It came hot; balanced portion.",
-            "ar": "وجاء ساخناً؛ حصة متوازنة."
+            "tr": "Çay tam kıvamında demleniyor; yanındaki baklava taze.",
+            "en": "The tea is brewed just right, and the baklava beside it is fresh.",
+            "ar": "الشاي يُحضَّر بالتركيز المناسب، والبقلاوة بجانبه طازجة."
           }
         },
         {
@@ -2041,24 +2052,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sipariş zamanında; servisi hızlı.",
-            "en": "Order on time; fast service.",
-            "ar": "طلب في الوقت؛ خدمة سريعة."
+            "tr": "Sakin bir köşe; demlik bitmeden yenisi geliyor.",
+            "en": "A calm corner; a new pot comes before the old one is empty.",
+            "ar": "ركن هادئ، وإبريق جديد يصل قبل أن ينتهي القديم."
           }
         },
         {
-          "name": "H. Sezer.",
+          "name": "H. Sezer",
           "role": {
             "tr": "Aile",
             "en": "Family",
-            "ar": "أسرة"
+            "ar": "عائلة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Menüsü sade; fiyat net.",
-            "en": "Simple menu; clear price.",
-            "ar": "قائمة بسيطة؛ سعر واضح."
+            "tr": "Hafta sonu kahvaltısına geldik; masa ve ikram düzenliydi.",
+            "en": "We came for weekend breakfast; the table and service were well organised.",
+            "ar": "جئنا لفطور نهاية الأسبوع؛ كانت الطاولة والضيافة منظمتين."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "10px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Masada neler var?",
+          "en": "What's on the table",
+          "ar": "ماذا على الطاولة؟"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Neler var?",
+          "en": "What's on offer?",
+          "ar": "ماذا نقدّم؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Demlik çay",
+            "en": "Pot tea",
+            "ar": "شاي الإبريق"
           },
           "metin": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Siparişe göre taze demlenen siyah çay; demlik bitmeden yenisi hazır.",
+            "en": "Black tea brewed fresh to order; a new pot is ready before the last one runs out.",
+            "ar": "شاي أسود يُحضَّر طازجًا عند الطلب، وإبريق جديد جاهز قبل أن ينتهي القديم."
           },
           "img": "restoran-menu-tatli.webp",
           "alt": {
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Kahve ve bitki çayları",
+            "en": "Coffee & herbal teas",
+            "ar": "القهوة وشاي الأعشاب"
           },
           "metin": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Türk kahvesi, adaçayı, ıhlamur ve mevsim bitki çayları.",
+            "en": "Turkish coffee, sage, linden and seasonal herbal teas.",
+            "ar": "قهوة تركية ومريمية وزهر الزيزفون وشاي أعشاب موسمي."
           },
-          "img": "restoran-galeri-masa.webp",
+          "img": "restoran-mekan-1.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
+            "tr": "Ev yapımı tatlı",
+            "en": "Homemade sweets",
+            "ar": "حلويات منزلية"
           },
           "metin": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
+            "tr": "Günün tatlısı sabah hazırlanır; tükenince yenisi yapılmaz.",
+            "en": "The sweet of the day is made in the morning; when it is gone, it is gone.",
+            "ar": "تُحضَّر حلوى اليوم صباحًا، وعند نفادها لا تُصنع غيرها."
           },
           "img": "restoran-menu-baklava.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "10px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Komşularımız ve tedarikçilerimiz",
+          "en": "Our neighbours and suppliers",
+          "ar": "جيراننا ومورّدونا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أعمال افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Kahvaltı"
+          "name": "Demo Kahvaltı Evi"
         },
         {
-          "name": "Demo Çay"
-        },
-        {
-          "name": "Demo Kahvaltı"
-        },
-        {
-          "name": "Demo İçecek"
-        },
-        {
-          "name": "Demo Unlu Mamul"
+          "name": "Demo Pastane"
         },
         {
           "name": "Demo Fırın"
+        },
+        {
+          "name": "Demo Çay Bahçesi"
+        },
+        {
+          "name": "Demo Kültür Evi"
+        },
+        {
+          "name": "Demo Çarşı"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Masa ayırtmak gerekir mi?",
+            "en": "Do I need to reserve a table?",
+            "ar": "هل يلزم حجز طاولة؟"
+          },
+          "answer": {
+            "tr": "Hafta sonu kalabalık saatlerde ayırtmanızı öneririz; formdan talep bırakabilirsiniz.",
+            "en": "We recommend reserving at busy weekend hours; you can leave a request in the form.",
+            "ar": "نوصي بالحجز في ساعات الازدحام في نهاية الأسبوع، ويمكنك ترك طلبك في النموذج."
+          },
           "soru": {
-            "tr": "Porsiyonlar ne kadar?",
-            "en": "How large are the portions?",
-            "ar": "ما حجم الحصص?"
+            "tr": "Masa ayırtmak gerekir mi?",
+            "en": "Do I need to reserve a table?",
+            "ar": "هل يلزم حجز طاولة؟"
           },
           "cevap": {
-            "tr": "Kişi sayısına göre değişir; demo metni örnek vermez.",
-            "en": "They vary by number of people; this demo text gives no example.",
-            "ar": "تتغير حسب عدد الأشخاص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Hafta sonu kalabalık saatlerde ayırtmanızı öneririz; formdan talep bırakabilirsiniz.",
+            "en": "We recommend reserving at busy weekend hours; you can leave a request in the form.",
+            "ar": "نوصي بالحجز في ساعات الازدحام في نهاية الأسبوع، ويمكنك ترك طلبك في النموذج."
           }
         },
         {
+          "question": {
+            "tr": "Paket çay ve tatlı alabilir miyim?",
+            "en": "Can I order takeaway tea and sweets?",
+            "ar": "هل يمكنني طلب شاي وحلويات للأخذ؟"
+          },
+          "answer": {
+            "tr": "Evet; termos çay ve kutulu tatlı hazırlıyoruz. Toplu siparişleri bir gün önceden bildirin.",
+            "en": "Yes; we prepare flask tea and boxed sweets. Please give a day's notice for group orders.",
+            "ar": "نعم، نجهّز شايًا في ترمس وحلويات في علب. يرجى إبلاغنا قبل يوم بالطلبات الكبيرة."
+          },
           "soru": {
-            "tr": "Çevrimiçi sipariş var mı?",
-            "en": "Are there online orders?",
-            "ar": "هل توجد طلبات عبر الإنترنت?"
+            "tr": "Paket çay ve tatlı alabilir miyim?",
+            "en": "Can I order takeaway tea and sweets?",
+            "ar": "هل يمكنني طلب شاي وحلويات للأخذ؟"
           },
           "cevap": {
-            "tr": "Siteden iletişim formuyla yapılır; veri saklanmaz (demo).",
-            "en": "It is done via the site’s contact form; data is not saved (demo).",
-            "ar": "يتم عبر نموذج الاتصال في الموقع؛ لا تُحفظ البيانات (تجريبي)."
+            "tr": "Evet; termos çay ve kutulu tatlı hazırlıyoruz. Toplu siparişleri bir gün önceden bildirin.",
+            "en": "Yes; we prepare flask tea and boxed sweets. Please give a day's notice for group orders.",
+            "ar": "نعم، نجهّز شايًا في ترمس وحلويات في علب. يرجى إبلاغنا قبل يوم بالطلبات الكبيرة."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Alerjen bilgisi alabilir miyim?",
+            "en": "Can I get allergen information?",
+            "ar": "هل يمكنني معرفة مسببات الحساسية؟"
+          },
+          "answer": {
+            "tr": "Tatlılarda fıstık, süt ve gluten bulunabilir; sipariş verirken servise belirtmeniz yeterli.",
+            "en": "Sweets may contain pistachio, milk and gluten; just tell the staff when ordering.",
+            "ar": "قد تحتوي الحلويات على الفستق والحليب والغلوتين؛ يكفي إخبار فريق الخدمة عند الطلب."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Alerjen bilgisi alabilir miyim?",
+            "en": "Can I get allergen information?",
+            "ar": "هل يمكنني معرفة مسببات الحساسية؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Tatlılarda fıstık, süt ve gluten bulunabilir; sipariş verirken servise belirtmeniz yeterli.",
+            "en": "Sweets may contain pistachio, milk and gluten; just tell the staff when ordering.",
+            "ar": "قد تحتوي الحلويات على الفستق والحليب والغلوتين؛ يكفي إخبار فريق الخدمة عند الطلب."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa talebi bırakın",
+          "en": "Request a table",
+          "ar": "اطلب حجز طاولة"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Gün, saat ve kişi sayısını yazın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us the day, time and party size; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب اليوم والوقت وعدد الأشخاص؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Çay Molası",
@@ -2421,7 +2472,7 @@
           "ar": "Çay Molası"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Masa talebi formu",
+          "en": "Table request form",
+          "ar": "نموذج طلب الحجز"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Masa ayırtma",
+              "en": "Table reservation",
+              "ar": "حجز طاولة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Grup veya doğum günü",
+              "en": "Group or birthday",
+              "ar": "مجموعة أو عيد ميلاد"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Paket sipariş",
+              "en": "Takeaway order",
+              "ar": "طلب للأخذ"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Çay Molası"
         },
         "description": {
-          "tr": "Çay Molası, çay ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Cay serves pot tea and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم شاي مولا شاي مغلي وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Çay Molası; demlik çay, ev yapımı tatlı ve hafif kahvaltı sunan bir çay evidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Çay Molası is a tea house serving pot tea, homemade sweets and a light breakfast. Images are representative and text is fictional.",
+          "ar": "Çay Molası بيت شاي يقدّم شاي الإبريق وحلويات منزلية وفطورًا خفيفًا. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Ateş başı",
-          "en": "At the fire",
-          "ar": "عند النار"
+          "tr": "Demlik başı",
+          "en": "The tea corner",
+          "ar": "ركن الشاي"
         },
         "spot2": {
-          "tr": "Ateş ve malzeme aynı mutfakta yürür.",
-          "en": "Fire and ingredients run in the same kitchen.",
-          "ar": "تسير نار والمواد في نفس المطبخ."
+          "tr": "Çay, sipariş geldikçe taze demlenir.",
+          "en": "Tea is brewed fresh as orders come in.",
+          "ar": "يُحضَّر الشاي طازجًا كلما وصل طلب."
         },
-        "icon2": "local_fire_department",
+        "icon2": "emoji_food_beverage",
         "name3": {
-          "tr": "Günün menüsü",
-          "en": "The menu of the day",
-          "ar": "قائمة اليوم"
+          "tr": "Günün tatlısı",
+          "en": "Sweet of the day",
+          "ar": "حلوى اليوم"
         },
         "spot3": {
-          "tr": "Her sabah menü yenilenir; aynı gün yazılır.",
-          "en": "The menu is renewed every morning and written on the same day.",
-          "ar": "تُجدَد القائمة كل صباح وتُكتب في نفس اليوم."
+          "tr": "Tatlı seçkisi her sabah yenilenir.",
+          "en": "The sweets selection is renewed every morning.",
+          "ar": "تتجدد تشكيلة الحلويات كل صباح."
         },
-        "icon3": "schedule",
+        "icon3": "cake",
         "img": "restoran-mekan-2.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 08:00 – 23:00",
+          "en": "Every day 08:00 – 23:00",
+          "ar": "كل يوم 08:00 – 23:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2849,23 +2901,23 @@
         "title": {
           "tr": "Demlik sıcakken",
           "en": "While the pot is warm",
-          "ar": "حين المقلى دافي"
+          "ar": "والإبريق ما زال دافئًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Masa talebinizi bırakın; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Leave your table request; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اترك طلب الحجز؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Masa talebi",
+          "en": "Table request",
+          "ar": "طلب حجز"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Çay ve tatlılar",
+          "en": "Tea & sweets",
+          "ar": "الشاي والحلويات"
         },
         "btn2Url": "hizmetler",
         "number": "903420230105",
