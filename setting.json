@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Demlik çay ve tatlı; görseller temsilîdir.",
-    "en": "Pot tea and sweets; images are representative.",
-    "ar": "شاي مغلي وحلويات؛ الصور تمثيلية."
+    "tr": "Demlik çay, ev yapımı tatlı ve kahvaltı sunan çay evi; görseller temsilîdir.",
+    "en": "A tea house serving pot tea, homemade sweets and breakfast; images are representative.",
+    "ar": "بيت شاي يقدّم شاي الإبريق وحلويات منزلية وفطورًا؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "çay, şekerkhana, tatlı",
-    "en": "tea, shishta, sweets",
-    "ar": "شاي، حلويات، سكر"
+    "tr": "çay evi, demlik çay, baklava, tatlı, kahvaltı",
+    "en": "tea house, pot tea, baklava, sweets, breakfast",
+    "ar": "بيت شاي، شاي الإبريق، بقلاوة، حلويات، فطور"
   },
   "category": "Kurumsal",
   "name": "Çay Molası",

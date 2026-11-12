@@ -1,7 +1,7 @@
 {
   "name": "Çay Molası",
   "short_name": "Çay Molası",
-  "description": "Demlik çay ve tatlı; görseller temsilîdir.",
+  "description": "Demlik çay, ev yapımı tatlı ve kahvaltı sunan çay evi; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
